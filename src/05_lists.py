@@ -23,8 +23,7 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
-x.append(99)
-x.append(10)
+x.extend([99, 10])
 print(x)
 
 # Print the length of list x
